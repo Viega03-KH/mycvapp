@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: oklch(98.4% 0.003 247.858);
+}
+
+.dark body {
+    background-color: oklch(14.7% 0.004 49.25); 
+}
+
+a, h1, p {
+    color: black;
+}
+
+.dark a,
+.dark h1,
+.dark p {
+    color: rgb(255, 255, 255);
+}
